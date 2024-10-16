@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Tarefas</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Inclua seu CSS aqui -->
+    <script defer src="script.js"></script>
+</head>
+
+<body>
+    <h1>Organizador de tarefas</h1>
+    <div class="container">
+        <div class="form-container">
+            <h2>Adicionar Tarefa</h2>
+            <input type="text" id="nome-tarefa" placeholder="Nome da tarefa" />
+            <button id="adicionar-tarefa">Adicionar Tarefa</button>
+
+            <h2>Atualizar Tarefa</h2>
+            <input type="text" id="id-tarefa" placeholder="ID da tarefa" />
+            <input type="text" id="novo-nome" placeholder="Novo nome" />
+            <div class="checkbox-container">
+                <input type="checkbox" id="novo-status" />
+                <label for="novo-status">Concluída</label>
+            </div>
+            <button id="atualizar-tarefa">Atualizar Tarefa</button>
+
+            <h2>Excluir Tarefa</h2>
+            <input type="text" id="id-tarefa-excluir" placeholder="ID da tarefa para excluir" />
+            <button id="excluir-tarefa">Excluir Tarefa</button>
+        </div>
+
+        <div class="tasks-container">
+            <h2>Tarefas</h2>
+            <div class="filter-cont">
+                <h3>Filtro</h3>
+                <input type="checkbox" id="filtro-concluido" />
+                <label for="filtro-concluido">Concluída</label>
+                <input type="checkbox" id="filtro-pendente" />
+                <label for="filtro-pendente">Pendente</label>
+            </div>
+            <ul id="lista-tarefas"></ul>
+        </div>
+    </div>
+</body>
+
+</html>
