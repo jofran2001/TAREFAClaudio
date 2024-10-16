@@ -15,7 +15,7 @@ Esse sistema é ideal para quem busca uma maneira simples e eficaz de gerenciar 
 ## Pré-requisitos
 Antes de executar a API, certifique-se de ter os seguintes pré-requisitos instalados:
 
-- [Node.js](https://nodejs.org/) (versão X.X.X ou superior)
+- [Node.js](https://nodejs.org/) 
 - [npm](https://www.npmjs.com/) ou [Yarn](https://yarnpkg.com/) (gerenciador de pacotes)
 
 ## Instalação
