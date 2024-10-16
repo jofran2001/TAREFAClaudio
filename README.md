@@ -24,7 +24,7 @@ Para instalar as dependências do projeto, siga os passos abaixo:
 1. Clone o repositório:
    ```bash
    git clone https://github.com/jofran2001/TAREFAClaudio.git
-   cd 
+   
 2. Inicie a API:
    ```bash
    node index.js
